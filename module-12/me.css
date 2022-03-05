@@ -1,7 +1,5 @@
 html{
     scroll-behavior: smooth;
-    height: auto;
-    width:  auto;
 }
 body{
     background-color: lightgray;
@@ -23,34 +21,40 @@ h1{
 
 }
 
+h2{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
 .card-1 {
-    position: fixed;
+    position: absolute;
     left: 40px;
-    top: 250px;
+    top: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 25%;
-    padding-bottom: 400px;
-    transition: 0.3s;
+    padding-bottom: 100px;
+    background-color: white;
 }
 
 .card-2 {
-    position: fixed;
-    left: 630px;
-    top: 250px;
+    position: absolute;
+    left: 775px;
+    top: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 25%;
-    padding-bottom: 400px;
-    transition: 0.3s;
+    padding-bottom: 100px;
+    background-color: white;
 }
 
 .card-3 {
-    position: fixed;
+    position: absolute;
     right: 40px;
-    top: 250px;
+    top: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 25%;
-    padding-bottom: 400px;
-    transition: 0.3s;
+    padding-bottom: 98px;
+    background-color: white;
 }
 
 .card-title {
@@ -61,39 +65,97 @@ h1{
 }
 
 .card-content {
+    position: relative;
     padding: 2px 16px;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    left: 20px;
+    top: 10px;
 }
 
 .card-4 {
-    position: fixed;
+    position: absolute;
     left: 40px;
-    bottom: 0px;
+    top: 1100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 25%;
-    padding-bottom: 400px;
-    transition: 0.3s;
+    padding-bottom: 100px;
+    background-color: white;
 }
 
 .card-5 {
-    position: fixed;
-    left: 630px;
-    bottom: 0px;
+    position: absolute;
+    left: 775px;
+    top: 1100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 25%;
-    padding-bottom: 400px;
-    transition: 0.3s;
+    padding-bottom: 100px;
+    background-color: white;
 }
 
 .card-6 {
-    position: fixed;
+    position: absolute;
     right: 40px;
-    bottom: 0px;
+    top: 1100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 25%;
-    padding-bottom: 400px;
-    transition: 0.3s;
+    padding-bottom: 80px;
+    background-color: white;
 }
+
+.experience{
+    position: absolute;
+    top: 950px;
+    left: 900px;
+}
+
+.contact{
+    position: absolute;
+    top: 1650px;
+    left: 930px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: darkblue;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-card {
+    position: relative;
+    top: 1450px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  img{
+      align-items: center;
+  }
+
+  p{
+      text-align: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: 600;
+      font-size: large;
+  }
