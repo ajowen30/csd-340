@@ -1,0 +1,99 @@
+html{
+    scroll-behavior: smooth;
+    height: auto;
+    width:  auto;
+}
+body{
+    background-color: lightgray;
+}
+
+header {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-size: 25px;
+    border-bottom: solid 20px #F0C3A3;
+}
+
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 60px;
+    padding-left: 30px;
+
+}
+
+.card-1 {
+    position: fixed;
+    left: 40px;
+    top: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding-bottom: 400px;
+    transition: 0.3s;
+}
+
+.card-2 {
+    position: fixed;
+    left: 630px;
+    top: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding-bottom: 400px;
+    transition: 0.3s;
+}
+
+.card-3 {
+    position: fixed;
+    right: 40px;
+    top: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding-bottom: 400px;
+    transition: 0.3s;
+}
+
+.card-title {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-4 {
+    position: fixed;
+    left: 40px;
+    bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding-bottom: 400px;
+    transition: 0.3s;
+}
+
+.card-5 {
+    position: fixed;
+    left: 630px;
+    bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding-bottom: 400px;
+    transition: 0.3s;
+}
+
+.card-6 {
+    position: fixed;
+    right: 40px;
+    bottom: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding-bottom: 400px;
+    transition: 0.3s;
+}
